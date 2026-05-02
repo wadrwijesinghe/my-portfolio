@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinuka Randima | Engineering Portfolio</title>
+    <meta name="description"
+        content="Professional engineering portfolio of Wa Dinuka Randima. Showcasing projects in IoT, embedded systems, and industrial automation.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">DR<span>.</span></a>
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item nav-btn"><a href="cv.pdf" class="btn btn-primary btn-sm"
+                            download="Dinuka_Randima_CV.pdf"><i class="fas fa-download"></i> Download CV</a></li>
+                </ul>
+            </div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content fade-in">
+                    <p class="greeting">Hello, I'm</p>
+                    <h1 class="name">Dinuka Randima</h1>
+                    <h2 class="title">Electrical & Electronic Engineering Technology Undergraduate</h2>
+                    <p class="summary">
+                        Passionate about embedded systems, industrial automation, and IoT technologies.
+                        Dedicated to developing innovative engineering solutions.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/wa-dinuka-randima" target="_blank"
+                            rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:dinuka.r.wijesinghe@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in">
+                    <div class="image-wrapper">
+                        <!-- Image loaded from profile.png -->
+                        <img src="profile.png" alt="Dinuka Randima" id="profile-img"
+                            onerror="this.src='https://via.placeholder.com/400x400/1e293b/38bdf8?text=Dinuka+Randima'">
+                        <div class="blob-shape"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container">
+                <h2 class="section-title fade-in">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text fade-in">
+                        <p class="objective">
+                            To gain practical engineering experience in electrical and electronic systems through an
+                            internship opportunity.
+                            I aim to apply my knowledge in embedded systems, industrial automation, and IoT technologies
+                            while developing
+                            professional skills and contributing to innovative engineering solutions.
+                        </p>
+
+                        <div class="personal-info">
+                            <div class="info-item">
+                                <span class="info-label">Full Name:</span>
+                                <span class="info-value">Wijesinghe Arachchige Dinuka Randima Wijesinghe</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Date of Birth:</span>
+                                <span class="info-value">21 October 2002</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Nationality:</span>
+                                <span class="info-value">Sri Lankan</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-container fade-in">
+                        <h3 class="subsection-title"><i class="fas fa-graduation-cap"></i> Academic Qualifications</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">2023 - Present</div>
+                                <h4 class="timeline-title">[BET (Hons)] in Electrical and Electronic Technology</h4>
+                                <p class="timeline-subtitle">Faculty of Technology, Rajarata University of Sri Lanka</p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">2021</div>
+                                <h4 class="timeline-title">G.C.E. Advanced Level (Technology Stream)</h4>
+                                <p class="timeline-subtitle">St' Aloysius College, Rathnapura</p>
+                                <p class="timeline-desc">Z-Score: 1.516 | District Rank: 56 | Island Rank: 1003</p>
+                            </div>
+                        </div>
+
+                        <h3 class="subsection-title mt-4"><i class="fas fa-briefcase"></i> Work Experience</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">2023</div>
+                                <h4 class="timeline-title">Election Commission of Sri Lanka</h4>
+                                <p class="timeline-subtitle">Casual Employee (Election Support Staff)</p>
+                                <p class="timeline-desc">Assisted with administrative and document handling tasks during
+                                    the election process.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section bg-alt">
+            <div class="container">
+                <h2 class="section-title fade-in">Technical & Professional Skills</h2>
+                <div class="skills-grid">
+
+                    <!-- Hardware & Platforms -->
+                    <div class="skill-category fade-in">
+                        <div class="skill-header">
+                            <i class="fas fa-microchip"></i>
+                            <h3>Hardware & Platforms</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><i class="fas fa-check-circle"></i> ESP32</li>
+                            <li><i class="fas fa-check-circle"></i> Arduino</li>
+                            <li><i class="fas fa-check-circle"></i> Sensors and Actuators</li>
+                            <li><i class="fas fa-check-circle"></i> Motor Control Systems</li>
+                        </ul>
+                    </div>
+
+                    <!-- Programming -->
+                    <div class="skill-category fade-in">
+                        <div class="skill-header">
+                            <i class="fas fa-code"></i>
+                            <h3>Programming</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><i class="fas fa-check-circle"></i> Arduino Programming</li>
+                            <li><i class="fas fa-check-circle"></i> Embedded Systems Programming</li>
+                            <li><i class="fas fa-check-circle"></i> Ladder Programming</li>
+                        </ul>
+                    </div>
+
+                    <!-- Software Tools -->
+                    <div class="skill-category fade-in">
+                        <div class="skill-header">
+                            <i class="fas fa-laptop-code"></i>
+                            <h3>Software Tools</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><i class="fas fa-check-circle"></i> Proteus Simulation</li>
+                            <li><i class="fas fa-check-circle"></i> AutoCad</li>
+                            <li><i class="fas fa-check-circle"></i> SolidWorks</li>
+                            <li><i class="fas fa-check-circle"></i> Microsoft Office</li>
+                        </ul>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="skill-category fade-in">
+                        <div class="skill-header">
+                            <i class="fas fa-users"></i>
+                            <h3>Personal Competences</h3>
+                        </div>
+                        <div class="tags">
+                            <span class="tag">Problem Solving</span>
+                            <span class="tag">Analytical Thinking</span>
+                            <span class="tag">Creative Thinking</span>
+                            <span class="tag">Teamwork</span>
+                            <span class="tag">Fast Learner</span>
+                            <span class="tag">Communication</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <h2 class="section-title fade-in">Featured Projects</h2>
+                <div class="projects-grid">
+
+                    <!-- Project 1 -->
+                    <div class="project-card fade-in">
+                        <div class="project-media">
+                            <!-- Change 'project1.jpg' or 'project1.mp4' to your file name -->
+                            <img src="project1.jpg" alt="Smart Industrial Motor" onerror="this.style.display='none'">
+                            <!-- <video src="project1.mp4" autoplay muted loop playsinline></video> -->
+                        </div>
+                        <div class="project-content">
+                            <div class="project-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <h3 class="project-title">Smart Industrial Motor Protection & Predictive Maintenance System
+                            </h3>
+                            <ul class="project-details">
+                                <li>Designed an ESP32-based system for monitoring motor conditions.</li>
+                                <li>Implemented real-time monitoring for voltage, current, and temperature.</li>
+                                <li>Developed a fault detection system for early failure detection.</li>
+                                <li>Created a web-based monitoring dashboard using IoT technology.</li>
+                            </ul>
+                            <button class="btn btn-outline btn-sm open-modal-btn" data-target="modal-1"
+                                style="margin-top: 15px;">View Details <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card fade-in">
+                        <div class="project-media">
+                            <!-- Change 'project2.jpg' or 'project2.mp4' to your file name -->
+                            <img src="project2.jpg" alt="Smart Industrial Safety" onerror="this.style.display='none'">
+                            <!-- <video src="project2.mp4" autoplay muted loop playsinline></video> -->
+                        </div>
+                        <div class="project-content">
+                            <div class="project-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h3 class="project-title">Smart Industrial Safety System using ESP32</h3>
+                            <ul class="project-details">
+                                <li>Developed an IoT-based industrial safety monitoring system using ESP32.</li>
+                                <li>Integrated sensors to detect hazardous conditions in industrial environments.</li>
+                                <li>Implemented real-time monitoring and alert system for worker safety.</li>
+                            </ul>
+                            <button class="btn btn-outline btn-sm open-modal-btn" data-target="modal-2"
+                                style="margin-top: 15px;">View Details <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card fade-in">
+                        <div class="project-media">
+                            <!-- Change 'project3.jpg' or 'project3.mp4' to your file name -->
+                            <img src="project3.jpg" alt="Water Quality Monitoring" onerror="this.style.display='none'">
+                            <!-- <video src="project3.mp4" autoplay muted loop playsinline></video> -->
+                        </div>
+                        <div class="project-content">
+                            <div class="project-icon">
+                                <i class="fas fa-water"></i>
+                            </div>
+                            <h3 class="project-title">Water Quality Monitoring System using ESP32</h3>
+                            <ul class="project-details">
+                                <li>Developed an IoT-based water quality monitoring system using ESP32.</li>
+                                <li>Measured pH level, temperature, and water clarity using multiple sensors.</li>
+                                <li>Displayed real-time data on OLED display and web interface for remote monitoring.
+                                </li>
+                            </ul>
+                            <button class="btn btn-outline btn-sm open-modal-btn" data-target="modal-3"
+                                style="margin-top: 15px;">View Details <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card fade-in">
+                        <div class="project-media">
+                            <!-- Change 'project4.jpg' or 'project4.mp4' to your file name -->
+                            <img src="project4.jpg" alt="PLC Bottle Filling" onerror="this.style.display='none'">
+                            <!-- <video src="project4.mp4" autoplay muted loop playsinline></video> -->
+                        </div>
+                        <div class="project-content">
+                            <div class="project-icon">
+                                <i class="fas fa-industry"></i>
+                            </div>
+                            <h3 class="project-title">PLC Bottle Filling Automation System</h3>
+                            <ul class="project-details">
+                                <li>Designed and simulated an automated bottle filling process using PLC.</li>
+                                <li>Implemented ladder logic programming for industrial automation.</li>
+                            </ul>
+                            <button class="btn btn-outline btn-sm open-modal-btn" data-target="modal-4"
+                                style="margin-top: 15px;">View Details <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="achievements fade-in mt-5">
+                    <h3 class="subsection-title text-center"><i class="fas fa-trophy"></i> Achievements</h3>
+                    <div class="achievement-card">
+                        <h4>2022 Invention Competition - Merit Award</h4>
+                        <p>Presented an innovative project in a school-level invention competition at St' Aloysius
+                            College, Rathnapura.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section bg-alt">
+            <div class="container">
+                <h2 class="section-title fade-in">Get In Touch</h2>
+                <p class="contact-desc fade-in">I am currently looking for an internship opportunity. Whether you have a
+                    position available or just want to say hi, I'll try my best to get back to you!</p>
+
+                <div class="contact-wrapper fade-in">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="icon-box"><i class="fas fa-phone"></i></div>
+                            <div>
+                                <h4>Call Me</h4>
+                                <p>+94 70 374 5001</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h4>Email Me</h4>
+                                <p><a href="mailto:dinuka.r.wijesinghe@gmail.com">dinuka.r.wijesinghe@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>820/C, Ekneligoda, Kuruwita, Ratnapura.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form"
+                        onsubmit="event.preventDefault(); alert('In a real environment, this would send an email. For now, please use the provided email or LinkedIn!');">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message <i
+                                class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">DR<span>.</span></div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/wa-dinuka-randima" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="mailto:dinuka.r.wijesinghe@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <p class="copyright">&copy; <span id="year"></span> Dinuka Randima. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Project Modals -->
+    <!-- Modal 1 -->
+    <div id="modal-1" class="project-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 class="modal-title">Smart Industrial Motor Protection & Predictive Maintenance System</h2>
+            <div class="modal-body">
+                <p><strong>Technologies:</strong> ESP32, IoT Dashboard, Voltage/Current/Temperature Sensors</p>
+                <p>In this project, I developed a comprehensive predictive maintenance system aimed at early failure
+                    detection in industrial motors. By continuously monitoring key parameters, the system significantly
+                    reduces downtime and maintenance costs. The real-time web dashboard allows remote access to critical
+                    data.</p>
+                <p>The system monitors motor parameters in real time and protects the motor from unsafe conditions while helping predict maintenance needs before failure occurs.</p>
+                <h4 style="color: var(--primary); margin-top: 15px; margin-bottom: 10px;">🔧 Key Features:</h4>
+                <ul class="project-details" style="margin-bottom: 15px;">
+                    <li>Real-time motor monitoring</li>
+                    <li>Overcurrent / fault protection</li>
+                    <li>Sensor-based condition monitoring</li>
+                    <li>Predictive maintenance concept</li>
+                    <li>IoT-based data visualization</li>
+                </ul>
+                <h4 style="color: var(--primary); margin-top: 15px; margin-bottom: 10px;">🎯 This project is suitable for:</h4>
+                <ul class="project-details">
+                    <li>Electrical & Electronic Engineering students</li>
+                    <li>Industrial IoT applications</li>
+                    <li>Mini & final-year projects</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div id="modal-2" class="project-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 class="modal-title">Smart Industrial Safety System using ESP32</h2>
+            <div class="modal-body">
+                <p><strong>Technologies:</strong> ESP32, Gas Sensors, Temperature Sensors, IoT</p>
+                <p>This project focused on worker safety by creating an intelligent monitoring network that detects
+                    hazardous conditions such as gas leaks or abnormal temperatures. The ESP32 microcontrollers process
+                    the sensor data and instantly trigger alerts to prevent accidents.</p>
+                <h4 style="color: var(--primary); margin-top: 15px; margin-bottom: 10px;">🔥 Smart Industrial Safety System using ESP32</h4>
+                <p>This project demonstrates a real-time Industrial Safety and Protection System designed using ESP32.</p>
+                <h4 style="color: var(--primary); margin-top: 15px; margin-bottom: 10px;">🔧 Key Features:</h4>
+                <ul class="project-details" style="margin-bottom: 15px;">
+                    <li>Gas Leak Detection</li>
+                    <li>Fire Detection</li>
+                    <li>Voltage & Temperature Monitoring</li>
+                    <li>Emergency Shutdown Logic</li>
+                    <li>Relay-Based Motor Protection</li>
+                    <li>Buzzer & LED Fault Indication</li>
+                    <li>OLED Display Monitoring</li>
+                    <li>Wi-Fi Based Web Dashboard</li>
+                </ul>
+                <p><strong>⚙️ Technologies Used:</strong> ESP32 | Embedded C/C++ | Sensors | Relay Module | Wi-Fi Web Server | Industrial Automation Concepts</p>
+                <p>This project simulates real industrial safety scenarios and demonstrates fault detection and automatic system shutdown under abnormal conditions.</p>
+                <p><em>🎯 Developed as part of my learning and internship experience in Industrial Automation.</em></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div id="modal-3" class="project-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 class="modal-title">Water Quality Monitoring System using ESP32</h2>
+            <div class="modal-body">
+                <p><strong>Technologies:</strong> ESP32, pH Sensor, Turbidity Sensor, OLED Display</p>
+                <p>A smart environmental monitoring solution capable of real-time water quality assessment. The system
+                    captures pH and clarity levels, displaying them locally on an OLED screen while simultaneously
+                    transmitting data to a web interface for remote environmental tracking.</p>
+                <p>Designed and developed an IoT-based Water Quality Monitoring System using ESP32 to measure and monitor key water parameters in real time. The system integrates multiple sensors to detect parameters such as pH level, temperature, and turbidity, ensuring accurate assessment of water quality.</p>
+                <p>Collected data is processed by the ESP32 microcontroller and transmitted to a web-based interface for real-time monitoring and visualization. The system enables continuous tracking, early detection of water contamination, and improved decision-making for environmental and industrial applications.</p>
+                <p>This project enhanced my skills in embedded systems, IoT development, sensor integration, and real-time data monitoring.</p>
+                <h4 style="color: var(--primary); margin-top: 15px; margin-bottom: 10px;">⚙️ Technologies Used:</h4>
+                <ul class="project-details">
+                    <li>ESP32 & Embedded Systems</li>
+                    <li>IoT & Wi-Fi Communication</li>
+                    <li>Web Dashboard & Interface</li>
+                    <li>Sensors: pH, Turbidity, Temperature</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div id="modal-4" class="project-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 class="modal-title">PLC Bottle Filling Automation System</h2>
+            <div class="modal-body">
+                <p><strong>Technologies:</strong> Programmable Logic Controller (PLC), Ladder Logic, Simulation Tools
+                </p>
+                <p>This automation project involved the design, simulation, and implementation of a sequential bottle
+                    filling line. Using industry-standard ladder logic programming, the system demonstrates efficient
+                    control over conveyor belts, valves, and sensors in a simulated industrial environment.</p>
+                <p>Designed and implemented a PLC-based Automatic Bottle Filling Conveyor System to automate industrial liquid filling processes. The system uses programmable logic control to manage bottle detection, conveyor movement, and precise filling operations.</p>
+                <p>Sensors were used to detect bottle position, while the PLC controlled the conveyor motor and solenoid valve to ensure accurate and consistent filling. The system was developed to reduce manual intervention, improve efficiency, and enhance reliability in production environments.</p>
+                <p>Gained hands-on experience in PLC programming, industrial automation, sensor integration, and control system design.</p>
+                <h4 style="color: var(--primary); margin-top: 15px; margin-bottom: 10px;">⚙️ Technologies Used:</h4>
+                <ul class="project-details">
+                    <li>Siemens PLC & Ladder Logic Programming</li>
+                    <li>Photoelectric Sensors</li>
+                    <li>Relay Modules & Solenoid Valves</li>
+                    <li>Conveyor Motor & Water Pump</li>
+                    <li>Industrial Automation Tools</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
